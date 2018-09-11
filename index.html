@@ -106,7 +106,7 @@ function interpret_correlation_result(event)
 	{
 		var dominant_frequency = test_frequencies[maximum_index];
 		document.getElementById("note-name").textContent = dominant_frequency.name;
-		document.getElementById("frequency").textContent = dominant_frequency.frequency;
+		document.getElementById("haihai").textContent += dominant_frequency.frequency + "<br>";
 	}
 }
 
@@ -141,6 +141,9 @@ function toggle_playing_note()
 </p>
 <hr>
 <button id="play-note">start/stop an E note</button>
+<hr>
+<div id="haihai">
+</div>
 <hr>
 <a href="https://github.com/jbergknoff/guitar-tuner">Source code</a> / <a href="http://jonathan.bergknoff.com/journal/making-a-guitar-tuner-html5">Explanatory article</a>
 </body>
