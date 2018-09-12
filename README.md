@@ -1,7 +1,7 @@
 ## HTML5 Guitar Tuner
 
-This is a simple guitar tuner made with the web audio API.
+Simple API test.
 
-[Demo](https://jbergknoff.github.io/guitar-tuner)
+[Demo](https://hydthemoon.github.io/hz-tuner/)
 
 [Explanatory writeup](http://jonathan.bergknoff.com/journal/making-a-guitar-tuner-html5)
