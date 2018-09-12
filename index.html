@@ -114,7 +114,7 @@ function interpret_correlation_result(event)
 var note_context = new AudioContext();
 var note_node = note_context.createOscillator();
 var gain_node = note_context.createGain();
-note_node.frequency = C2 * Math.pow(2, 10 / 12); // E, ~82.41 Hz.
+note_node.frequency = C2 * Math.pow(2, 4 / 12); // E, ~82.41 Hz.
 gain_node.gain.value = 0;
 note_node.connect(gain_node);
 gain_node.connect(note_context.destination);
@@ -133,18 +133,19 @@ function toggle_playing_note()
 </head>
 
 <body>
-<p>음정</p>
+<p>창 설 하 자</p>
 <h1 id="note-name"></h1>
-<p>
-	<span>frequency (Hz):</span>
-	<span id="haihai"></span>
-</p>
+
 <hr>
-<button id="play-note">Bb Tone</button>
+<button id="play-note">A Tone</button>
 <hr>
 <div id="haihai">
 </div>
 <hr>
-<a href="https://github.com/jbergknoff/guitar-tuner">Source code</a> / <a href="http://jonathan.bergknoff.com/journal/making-a-guitar-tuner-html5">Explanatory article</a>
+<a href="https://github.com/jbergknoff/guitar-tuner">Source code</a>
+<p>
+	<span>frequency (Hz):</span>
+	<span id="haihai"></span>
+</p>
 </body>
 </html>
