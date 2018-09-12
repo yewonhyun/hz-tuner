@@ -114,7 +114,7 @@ function interpret_correlation_result(event)
 var note_context = new AudioContext();
 var note_node = note_context.createOscillator();
 var gain_node = note_context.createGain();
-note_node.frequency = C2 * Math.pow(2, 4 / 12); // E, ~82.41 Hz.
+note_node.frequency = C2 * Math.pow(2, 10 / 12); // E, ~82.41 Hz.
 gain_node.gain.value = 0;
 note_node.connect(gain_node);
 gain_node.connect(note_context.destination);
@@ -140,7 +140,7 @@ function toggle_playing_note()
 	<span id="haihai"></span>
 </p>
 <hr>
-<button id="play-note">E Tone</button>
+<button id="play-note">Bb Tone</button>
 <hr>
 <div id="haihai">
 </div>
