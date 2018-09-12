@@ -1,6 +1,6 @@
-## HTML5 Guitar Tuner
+## HTML5 Tuner
 
-Simple API test.
+창설을 하자
 
 [Demo](https://hydthemoon.github.io/hz-tuner/)
 
