@@ -106,7 +106,7 @@ function interpret_correlation_result(event)
 	{
 		var dominant_frequency = test_frequencies[maximum_index];
 		document.getElementById("note-name").textContent = dominant_frequency.name;
-		document.getElementById("haihai").innerHTML += dominant_frequency.frequency + "<br>";
+		document.getElementById("haihai").innerHTML += dominant_frequency.frequency;
 	}
 }
 
@@ -147,9 +147,8 @@ function toggle_playing_note()
 <p>
 	<div>frequency (Hz)</div>
 	<div id="haihai"></div>
-	<div id="haihai"> </div>
-
 </p>
+<div id="haihai"> </div>
 
 </body>
 </html>
